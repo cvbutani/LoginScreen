@@ -37,7 +37,7 @@
         android:layout_gravity="center">
 
         <EditText
-            android:id="@+id/edit_item_price"
+            android:id="@+id/email_address"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Email Address"
@@ -50,6 +50,7 @@
         android:layout_gravity="center">
 
         <EditText
+            android:id="@+id/user_password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Password"

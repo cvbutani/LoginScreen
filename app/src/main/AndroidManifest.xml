@@ -16,7 +16,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".NewAccountActivity"></activity>
+        <activity android:name=".NewAccountActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <provider
+            android:name=".data.LoginProvider"
+            android:authorities=".com.example.chirag.loginscreen"
+            android:exported="false" />
     </application>
 
 </manifest>
