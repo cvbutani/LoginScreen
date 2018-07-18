@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         newAccountView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity.this, new_account.class);
+                Intent intent = new Intent(MainActivity.this, NewAccountActivity.class);
                 startActivity(intent);
             }
         });
